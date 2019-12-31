@@ -1,11 +1,9 @@
-// xordemo_crackme.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 #include <cstdint>
 #include <vector>
 #include <string>
 
+// My personal (poor) C++ code showing how to reverse the XOR encryption in the xordemo crackme
 std::vector<std::uint8_t> do_xor()
 {
 	// const char* base_key = "1feebdab";
