@@ -24,7 +24,7 @@ std::vector<std::uint8_t> do_xor()
 	return data;
 }
 
-int main()
+std::int32_t main()
 {
 	std::vector<std::uint8_t> data = do_xor();
 	std::string input;
