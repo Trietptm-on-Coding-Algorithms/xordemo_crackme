@@ -13,7 +13,7 @@ std::vector<std::uint8_t> do_xor()
 	std::uint8_t byte_code[] =
 	{ 0x10, 0x14, 0x0A, 0x05, 0x0C, 0x17, 0x0A, 0x02 };	
 	const std::int32_t size = std::strlen(base_key);
-	std::vector<std::uint8_t> data;
+	std::vector<std::uint8_t> data = {};
 	
 	for (std::int32_t i = 0; i < size; i++)
 	{
