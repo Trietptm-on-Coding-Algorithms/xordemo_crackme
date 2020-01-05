@@ -7,7 +7,7 @@
 std::vector<std::uint8_t> do_xor()
 {
 	// const char* base_key = "1feebdab";
-	// the string gets reversed based on the assembly shown,
+	// the string gets reversed based on the endianness of x86,
 	// so it actually is:
 	const char* base_key = "badbeef1";
 	std::uint8_t byte_code[] =
